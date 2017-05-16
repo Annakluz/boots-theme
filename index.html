@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="boot/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Document</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default navbar-fixed-top">
 
         <div class="container">
            <div class="navbar-header">
@@ -20,21 +21,39 @@
                    <span class="icon-bar"></span>
                    <span class="icon-bar"></span>
                </button>
+               <a href="#" class="navbar-brand" >
+                   <img  class="imgnavbar" src="img/logonavbar.png" alt="logo">
+               </a>
            </div>
-            <div class="collapse navbar-collapse" id="menuItems">
+            <div class="collapse navbar-collapse navbar-right" id="menuItems">
                 <ul class="nav navbar-nav">
-                    <li><a href="#">Historia</a></li>
-                    <li><a href="#">Extincion</a></li>
-                    <li><a href="#">Ubicacion</a></li>
-
+                    <li><a href="#">Store</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">News</a></li>
                 </ul>
             </div>
-
         </div>
-
-
-
     </nav>
+     <article class="container fotos">
+      <section class="row">
+        <div class="col-md-3">
+            <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <img src="img/ps4.jpg" alt="panda1" class="img-responsive">
+        </div>
+        <div class="col-md-3">
+            <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <img src="img/xbox.jpg" alt="panda2" class="img-responsive gamesImg">
+        </div>
+        <div class="col-md-3">
+          <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <img src="img/pcgames.jpg" alt="panda2" class="img-responsive gamesImg">
+        </div>
+        <div class="col-md-3">
+            <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <img src="img/xbox2.jpg" alt="panda2" class="img-responsive gamesImg">
+        </div>
+      </section>
+</article>
 
 
 
