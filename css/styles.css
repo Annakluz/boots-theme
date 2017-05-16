@@ -15,3 +15,20 @@ body{
     width: 241px;
     height: 300px;
 }
+
+.btn-default{
+    margin: 1rem;
+    border-radius: 10vw;
+
+    
+}
+
+p{
+    color: gray;
+    text-align: justify;
+}
+
+.panel-footer{
+    text-align: center;
+}
+
